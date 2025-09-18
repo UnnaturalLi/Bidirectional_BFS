@@ -1,9 +1,21 @@
-# Bidirectional_BFS (A lot to optimize but yeah I hope it makes sense to you ^_^)
-Based on a toy given by 海底捞
-It is a puzzle toy includes 10 grids looks like this:
-1 1 1\n
-1 1 1\n
-1 1 1\n
-0 1 1\n
-(1 means reachable grid)
-there are nine block in the puzzle, you can mess it up and turn it back to the right order.
+# Bidirectional BFS  Puzzle Solver
+# (A lot to optimize, but I hope it makes sense to you ^_^)
+
+## About the Toy
+This project is based on a puzzle toy from haidilao.
+The puzzle has 10 grids arranged like this:
+```
+1 1 1
+1 1 1
+1 1 1
+0 0 1
+```
+
+- 1 means a reachable grid.
+- 0 means an empty space (slot).
+
+There are 9 movable blocks placed on the 1s.
+You can scramble them, and the goal is to bring them back into the correct order.
+## Algorithm
+This project uses Bidirectional BFS to solve the puzzle efficiently.
+(Still lots of room for optimization!)
